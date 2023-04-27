@@ -14,6 +14,9 @@
 		01397DC029FAE55900C4D99F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01397DBF29FAE55900C4D99F /* MenuView.swift */; };
 		01397DC229FAE57200C4D99F /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01397DC129FAE57200C4D99F /* MatchManager.swift */; };
 		01397DC429FAE58C00C4D99F /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01397DC329FAE58C00C4D99F /* Misc.swift */; };
+		01397DC629FB1DCA00C4D99F /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01397DC529FB1DCA00C4D99F /* GameOverView.swift */; };
+		01397DC829FB293E00C4D99F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01397DC729FB293E00C4D99F /* GameView.swift */; };
+		01397DCA29FB31B200C4D99F /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01397DC929FB31B200C4D99F /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		01397DBF29FAE55900C4D99F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		01397DC129FAE57200C4D99F /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
 		01397DC329FAE58C00C4D99F /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		01397DC529FB1DCA00C4D99F /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		01397DC729FB293E00C4D99F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		01397DC929FB31B200C4D99F /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				01397DBF29FAE55900C4D99F /* MenuView.swift */,
 				01397DC129FAE57200C4D99F /* MatchManager.swift */,
 				01397DC329FAE58C00C4D99F /* Misc.swift */,
+				01397DC529FB1DCA00C4D99F /* GameOverView.swift */,
+				01397DC729FB293E00C4D99F /* GameView.swift */,
+				01397DC929FB31B200C4D99F /* DrawingView.swift */,
 			);
 			path = GuessTheDoodle;
 			sourceTree = "<group>";
@@ -149,8 +158,11 @@
 				01397DB429FAE48400C4D99F /* ContentView.swift in Sources */,
 				01397DC229FAE57200C4D99F /* MatchManager.swift in Sources */,
 				01397DC029FAE55900C4D99F /* MenuView.swift in Sources */,
+				01397DCA29FB31B200C4D99F /* DrawingView.swift in Sources */,
 				01397DC429FAE58C00C4D99F /* Misc.swift in Sources */,
+				01397DC629FB1DCA00C4D99F /* GameOverView.swift in Sources */,
 				01397DB229FAE48400C4D99F /* GuessTheDoodleApp.swift in Sources */,
+				01397DC829FB293E00C4D99F /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
