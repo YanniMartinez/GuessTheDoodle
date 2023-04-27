@@ -24,6 +24,7 @@ struct MenuView: View {
                 //TODO: Start Matchmaking menu
             }label: {
                 Text("Play")
+                    .foregroundColor(.white) //Define color de letra
                     .font(.largeTitle)
                     .bold()
             }
@@ -36,10 +37,27 @@ struct MenuView: View {
                 //Con esto delimitamos el contenido a una capsula como ovalo
                 Capsule(style: .circular)
                     //Agregamos el color definido en Assets
-                    .fill(Color("playBtn"))
+                    //.fill(Color("playBtn"))
+                
+                    //La siguiente forma lo que hace es evaluar y con un ternario definir el color del boton
+                    .fill( matchManager.authenticationState != .authenticated || matchManager.inGame ? .gray :
+                        Color("playBtn"))
             )
+            Text(matchManager.authenticationState.rawValue)
+                .font(.headline
+                    .weight(.semibold))
+                .foregroundColor(Color("primaryYellow"))
+                .padding()
             
+            Spacer()
         }
+        //Definiendo imagen como fondo
+        .background(
+            Image("menuBg")
+                .resizable()
+                .scaledToFill()
+                .scaleEffect(1.1) //Define la escala
+        ).ignoresSafeArea()
     }
 }
 
